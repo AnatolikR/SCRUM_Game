@@ -1,3 +1,114 @@
-#logo {
-  background-color: red;
+@import url(reset.css);
+#wrapper{
+	  margin-right: auto;
+  margin-left:  auto;
+  max-width: 1120px;
+  padding-right: 10px;
+  padding-left:  10px;
+}
+#logo{
+	display: flex;
+	color: #000099
+}
+.class1{
+	font-family:Segoe Script;
+	font-size: 32px;
+	font-color: 000099;
+	margin-left: 20px;
+}
+.list{
+	width: 1200px;
+	list-style-type: none;
+	font-size: 16pt;
+	line-height: 40px;
+}
+
+.list_item:nth-child(1) {
+	margin-left: 5%;
+}
+
+.list_item:nth-child(2) {
+	margin-left: 20%;
+}
+
+.list_item:nth-child(3) {
+	margin-left: 35%;
+}
+
+.list_item:nth-child(4) {
+	margin-left: 48%;
+}
+
+.list_item:nth-child(5) {
+	margin-left: 55%;
+}
+
+.testStylesHeader{
+	font-size: 38px;
+	color: black;
+	text-align: center;
+	margin: -10px 0 0 0;
+}
+
+.testStylesList{
+	padding-left: 120px;
+	list-style: none;
+	font-size: 21px;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+.testStylesList {
+	color: #000;
+	text-decoration: none;
+}
+
+.centerImage{
+	height:350px;
+}
+
+.centerImageTesting{
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin-left: 210px;
+}
+
+.b1 {
+	background: yellow;
+	height:40px;
+  width:170px;
+  color: black;
+	border-radius: 10px;
+	margin-left: 80px;
+}
+
+.class5{
+	margin-left: 20%;
+}
+
+.class6{
+	margin-left: 40%;
+}
+
+.class7{
+	margin-left: 60%;
+}
+
+.class8{
+	margin: 80%;
+}
+
+.b0 {
+	background: yellow;
+	height:40px;
+  width:170px;
+  color: black;
+	border-radius: 10px;
+	margin-left: 90px;
+}
+.f1 {
+	margin-left: 20px;
 }
